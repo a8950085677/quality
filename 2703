@@ -1,4 +1,19 @@
 1)https://prezi.com/p/rnnqljzqssa7/presentation/
 2)Создать веб-страницу со следующим кодом:
-<input type=text name=text>
-<input type=button onclick=document.getElementById('text').value=eval(document.getElementById("text"));>
+<!DOCTYPE HTML>
+<html>
+<head>
+<script type="text/javascript">
+function ButtonClick1()
+{
+let a=eval(document.getElementById('text1').value);
+alert(a);
+
+}
+</script>
+</head>
+<body>
+<input type=text id=text1>
+<input type=button onClick='ButtonClick1();'>
+<body>
+</html>
