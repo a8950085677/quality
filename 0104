@@ -6,6 +6,7 @@
 function ButtonClick1()
 {
 let a=eval(document.getElementById('text1').value);
+document.getElementById('text1').value=a;
 alert(a);
 
 }
